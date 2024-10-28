@@ -1,7 +1,5 @@
 <div align='center'>
-
-![US_Neighbors_extractor](https://github.com/user-attachments/assets/ffed07fe-c418-4fdb-8c95-9aec2b86723b)
-
+![Neighbors_Extractor](https://github.com/user-attachments/assets/89eb6f55-6b7a-4559-ba48-50c2cc6483ac)
 </div>
 
 
