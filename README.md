@@ -6,7 +6,7 @@
 
 
 # Overview
-The **Neighbors Extractor** is a powerful Python application designed to help real estate companies in the USA gather essential information about properties and their surrounding neighborhoods. By leveraging web scraping techniques, this tool enables users to extract detailed data about neighboring addresses, including names, phone numbers, and address histories, providing valuable insights for property analysis, client outreach, and market research.
+The **Neighbors Extractor** is a powerful Python application designed to help real estate companies in the USA gather essential information about properties and their surrounding neighborhoods.
 
 <strong> This solves the problem </strong> of manual data collection by automating the extraction of neighbor information, making it easier to analyze properties, conduct client outreach, and perform market research.
 
@@ -29,6 +29,16 @@ The **Neighbors Extractor** is a powerful Python application designed to help re
     <li><strong>Marketing Professionals</strong>: Identify and reach out to individuals who may be looking to fill roles within the industry.</li>
     <li><strong>Research Analysts</strong>: To conduct studies on property values and demographic trends in specific areas.</li>
 </ul>
+
+# Technologies Used
+- **Python**: The primary programming language for developing the application.
+- **Tkinter**: Utilized for creating the graphical user interface (GUI).
+- **Beautiful Soup**: Employed for parsing HTML documents and extracting relevant data from web pages.
+- **Requests**: Used for making HTTP requests to retrieve and interact with webpage content.
+- **openpyxl**: For reading and writing Excel files, allowing the application to save extracted data in a structured format.
+- **Regular Expressions (re module)**: Used for pattern matching and extracting specific information from text data.
+- **Threading**: To enable concurrent execution of tasks, ensuring a responsive GUI during data scraping.
+- **CustomTkinter**: An enhanced version of Tkinter that provides modern and customizable widgets for a better user experience. 
 
 # Features
 
