@@ -41,6 +41,7 @@ The **Neighbors Extractor** is a powerful Python application designed to help re
 
 # Project Background
 This project was originally developed for <strong> MSV Properties. </strong>
+
 Created by <strong> Karim Merchaoui. </strong>
 
 
@@ -84,7 +85,7 @@ pip install -r requirements.txt
 </ol>
 
 
-## API Key Management
+# API Key Management
 <p>This application leverages <strong>ScraperAPI</strong> to access data from web pages. Make sure your API key is correctly configured:</p>
 
 <ul>
