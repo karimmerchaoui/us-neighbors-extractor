@@ -14,7 +14,7 @@ The **Neighbors Extractor** is a powerful Python application designed to help re
 ## Who Would Benefit from This Tool:
 
 <ul>
-    <li><strong>Real Estate Agents</strong>: Quickly identify potential job candidates by extracting contact information from listings.</li>
+    <li><strong>Real Estate Agents</strong>: To gather contact information of potential clients and neighbors for personalized outreach.</li>
     <li><strong>Property Managers</strong>: To analyze neighboring properties and communicate with residents about community events or concerns.</li>
     <li><strong>Investors</strong>: To evaluate potential investments by analyzing surrounding properties and their demographics.</li>
     <li><strong>Marketing Professionals</strong>: Identify and reach out to individuals who may be looking to fill roles within the industry.</li>
