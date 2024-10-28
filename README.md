@@ -8,8 +8,10 @@
 # Neighbors Extractor
 
 ## Overview
-
 The **Neighbors Extractor** is a powerful Python application designed to help real estate companies in the USA gather essential information about properties and their surrounding neighborhoods. By leveraging web scraping techniques, this tool enables users to extract detailed data about neighboring addresses, including names, phone numbers, and address histories, providing valuable insights for property analysis, client outreach, and market research.
+
+<strong> This solves the problem </strong> of manual data collection by automating the extraction of neighbor information, making it easier to analyze properties, conduct client outreach, and perform market research.
+
 
 <div align='center'>
 
@@ -33,7 +35,7 @@ The **Neighbors Extractor** is a powerful Python application designed to help re
 ## Features
 
 - **Address Parsing**: Automatically extracts components of an address (number, street name, city, state, zip code) to ensure accurate data collection.
-- **Web Scraping**: Utilizes BeautifulSoup and requests to scrape data from the web, specifically targeting neighbor information.
+- **Web Scraping**: Utilizes <strong>BeautifulSoup</strong> and <strong>requests</strong> to scrape data from the web, specifically targeting neighbor information, with ScraperAPI used to bypass anti-bot protections.
 - **Data Extraction**: Employs regex to extract pertinent details such as names, ages, phone numbers, and historical addresses from text data.
 - **Excel Output**: Saves extracted data into a well-structured Excel file for easy access and analysis.
 - **User-Friendly GUI**: Built with `customtkinter`, providing an intuitive interface for users to input addresses and receive results with minimal effort.
@@ -77,3 +79,26 @@ pip install -r requirements.txt
     <li>Enter the number,street,city,state or zip and the number of addresses you want to check in the GUI.</li>
     <li>Click "Extract" to begin extracting .</li>
 </ol>
+
+
+## API Key Management
+<p>This application leverages <strong>ScraperAPI</strong> to access data from web pages. Make sure your API key is correctly configured:</p>
+
+<ul>
+  <li><strong>File-based Configuration:</strong> Place your API key in <code>api.txt</code>.</li>
+  <li><strong>Default API Key:</strong> If <code>api.txt</code> is missing, the app will fall back to a default demo key, which may have limited usage.</li>
+</ul>
+
+
+# Output
+
+<p>The output of this application is an Excel file containing key information extracted from neighbor data. Each row represents a distinct individual found during the scraping process.</p>
+
+<ul>
+  <li><strong>Name:</strong> This column provides the name of the individual.</li>
+  <li><strong>Phone Numbers:</strong> This column lists the contact numbers associated with the person. If multiple phone numbers are available, they are separated by commas.</li>
+  <li><strong>Address Histories:</strong> This column contains the person's address history. If the individual has lived at multiple addresses, they are separated by semicolons.</li>
+</ul>
+
+
+![image](https://github.com/user-attachments/assets/65644a71-2913-4ec9-945f-ad069bb05247)
