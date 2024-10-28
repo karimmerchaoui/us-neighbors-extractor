@@ -5,9 +5,7 @@
 </div>
 
 
-# Neighbors Extractor
-
-## Overview
+# Overview
 The **Neighbors Extractor** is a powerful Python application designed to help real estate companies in the USA gather essential information about properties and their surrounding neighborhoods. By leveraging web scraping techniques, this tool enables users to extract detailed data about neighboring addresses, including names, phone numbers, and address histories, providing valuable insights for property analysis, client outreach, and market research.
 
 <strong> This solves the problem </strong> of manual data collection by automating the extraction of neighbor information, making it easier to analyze properties, conduct client outreach, and perform market research.
@@ -22,7 +20,7 @@ The **Neighbors Extractor** is a powerful Python application designed to help re
 </div>
 
 
-## Who Would Benefit from This Tool:
+# Who Would Benefit from This Tool:
 
 <ul>
     <li><strong>Real Estate Agents</strong>: To gather contact information of potential clients and neighbors for personalized outreach.</li>
@@ -32,7 +30,7 @@ The **Neighbors Extractor** is a powerful Python application designed to help re
     <li><strong>Research Analysts</strong>: To conduct studies on property values and demographic trends in specific areas.</li>
 </ul>
 
-## Features
+# Features
 
 - **Address Parsing**: Automatically extracts components of an address (number, street name, city, state, zip code) to ensure accurate data collection.
 - **Web Scraping**: Utilizes <strong>BeautifulSoup</strong> and <strong>requests</strong> to scrape data from the web, specifically targeting neighbor information, with ScraperAPI used to bypass anti-bot protections.
@@ -40,6 +38,11 @@ The **Neighbors Extractor** is a powerful Python application designed to help re
 - **Excel Output**: Saves extracted data into a well-structured Excel file for easy access and analysis.
 - **User-Friendly GUI**: Built with `customtkinter`, providing an intuitive interface for users to input addresses and receive results with minimal effort.
 - **Progress Tracking**: Displays real-time progress during data scraping, enhancing user experience.
+
+# Project Background
+This project was originally developed for <strong> MSV Properties. </strong>
+Created by <strong> Karim Merchaoui. </strong>
+
 
 # Installation
 
@@ -100,5 +103,5 @@ pip install -r requirements.txt
   <li><strong>Address Histories:</strong> This column contains the person's address history. If the individual has lived at multiple addresses, they are separated by semicolons.</li>
 </ul>
 
-
 ![image](https://github.com/user-attachments/assets/65644a71-2913-4ec9-945f-ad069bb05247)
+
